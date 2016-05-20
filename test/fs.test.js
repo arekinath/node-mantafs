@@ -58,7 +58,7 @@ test('setup', function (t) {
     MANTA = manta.createClient({
         log: LOG,
         sign: manta.privateKeySigner({
-            key: fs.readFileSync(process.env.HOME + '/.ssh/id_rsa', 'utf8'),
+            key: fs.readFileSync(process.env.HOME + '/.ssh/id_ecdsa', 'utf8'),
             keyId: process.env.MANTA_KEY_ID,
             user: process.env.MANTA_USER
         }),

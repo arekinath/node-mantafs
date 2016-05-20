@@ -16,17 +16,16 @@
     },
     "main": "lib/index.js",
     "dependencies": {
-        "assert-plus": "0.1.5",
-        "bunyan": "0.22.1",
-        "leveldown": "0.10.0",
-        "levelup": "0.18.1",
+        "assert-plus": "^1.0.0",
+        "bunyan": "^1.8.0",
+        "leveldown": "^1.4.0",
+        "levelup": "^1.3.0",
         "lru-cache": "2.5.0",
         "lstream": "0.0.3",
-        "manta": "1.2.6",
+        "manta": "2.0.7",
         "mkdirp": "0.3.5",
         "node-uuid": "1.4.1",
         "once": "1.3.0",
-        "statvfs": "2.1.0",
         "vasync": "1.4.1"
     },
     "devDependencies": {
